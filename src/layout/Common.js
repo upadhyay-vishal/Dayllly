@@ -5,7 +5,7 @@ import Sidebar from '../components/common/Sidebar'
 function Common({ children }) {
 
     return (
-        <div >
+        <div>
             <Header />
             <div className='d-flex'>
                 <Sidebar />

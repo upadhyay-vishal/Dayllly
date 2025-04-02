@@ -40,7 +40,7 @@ const userSchema = Yup.object().shape({
 
 function Login() {
 
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     const defaultEmail = "vishal.upadhyay886@gmail.com";
     const defaultPassword = "emilyspass";
